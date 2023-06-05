@@ -16,7 +16,7 @@ from util.Result import err, ok
 app = Flask(__name__)
 
 load_dotenv()
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 os.environ["https_proxy"] = "http://127.0.0.1:8080"
 # 设置内置日志记录器等级
